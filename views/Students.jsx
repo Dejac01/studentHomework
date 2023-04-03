@@ -6,13 +6,13 @@ const Students =[
         enrolled: true
     },
     {
-        name:'Deja',
+        name:'Ray',
         grade: '100',
         grades: [80,76,90],
         enrolled: true
     },
     {
-        name:'Deja',
+        name:'Sky',
         grade: '100',
         grades: [90,87,68],
         enrolled: true
