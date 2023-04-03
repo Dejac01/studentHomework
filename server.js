@@ -45,8 +45,8 @@ app.get('/students/:indexOfStudentsArray', function(req, res){
 // ---POST
 app.post('/students/:indexOfStudentsArray', function(req, res){
   console.log(req.body)
-  Students[req.params.indexOfStudentsArray].grades.push(req.body)
-  res.redirect('/students/:indexOfStudentsArray');
+  Students[req.params.indexOfStudentsArray].grades.push(req.body.grade)
+  res.redirect('/students/'+req.params.indexOfStudentsArray);
 });
 
 //-----show
