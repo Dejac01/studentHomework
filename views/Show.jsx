@@ -6,13 +6,13 @@ class Show extends React.Component {
     console.log(student);
     return (
       <div>
-        <h1> Show Page </h1>
+        <h1> Gradebook </h1>
         {student.name} has {student.grade}
         <ul>
           {student.grades.map((grade, i) => {
             return (
               <li key={i}>
-                has a {grade} <br></br>
+                Assignment Grade {grade} <br></br>
                 <br />
               </li>
             );
